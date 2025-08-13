@@ -1,0 +1,552 @@
+* {
+	font-family: Calibri,Arial,Helvetica !important;
+}
+
+/*ADD CSS- KAYE*/
+
+.WrapTxt{
+	white-space: normal !important;
+}
+
+.height30px{
+	height: 30px !important;
+}
+
+.sapUiMltPadRight {
+    padding: 0 4px 0px 0 !important;
+}
+/*****************/
+
+.sapUiIcon {
+	font-family: SAP-icons !important;
+	font-size: initial !important;
+	color: #004080 !important;
+	/*color: #ffffff !important;
+	line-height: 0px !important;
+	color: #ffffff!important;
+	*/
+}
+.sapUiBtnS {
+	font-size: 14px !important;
+}
+.sapUiTf{
+	font-size: 14px !important;
+}
+
+/*wrap comments*/
+.sapUiTv1 {
+    white-space: normal !important;
+}
+
+.sapUiLbl{
+	font-size: 14px !important;
+}
+.sapUiTableCell>.sapUiTv {
+	font-size: 14px !important;
+}
+.sapUiLnk {
+	font-size: 14px !important;
+}
+
+.sapUiTfDsbl {
+	/*color: #7a7a7a!important;*/
+	color: #000000 !important;
+}
+/*remove blue bar separator, sap.m.Page */
+.sapMPageHeader::before {
+	border-top: none !important;
+}
+.HomeBox
+{
+	align-items: center;
+	padding-top: 30px !important;
+}
+.homeVBox2 {
+	border: 0px solid darkblue;
+	padding: 22px 22px 120px;
+	}
+.alignItemsCenter{
+	  align-items:center;
+}
+.alignTextCenter{
+	 text-align:center !important;
+}
+
+.noPads {
+  padding:0px !important;
+}
+
+.font14ptBold {
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+
+.font14pt {
+	font-size: 14px !important;
+}
+
+.fontBold {
+	font-weight: 700 !important;
+}
+
+.underline {
+	text-decoration: underline;
+}
+.hdrBackground {
+  background-color: rgba(255,255,255,0.8);
+}
+.jgs-busyIndicator {
+  z-index:100;
+  position:absolute;
+  left:30%;
+  top:30%;
+  text-align:center;
+}
+
+.layoutTitle {
+font-size: 14px !important;
+font-weight:bold !important;
+padding:1px 2px !important;
+vertical-align: bottom !important;
+background-color: rgba(255,255,255,0.8);
+line-height: 22px !important;
+}
+.green {  
+    color: #2fb900;   
+}  
+.red {  
+    color: #FF3300;  
+}  
+.blue {  
+    color: #0000a0;  
+}  
+
+.black {  
+    color: #000000 !important;  
+}  
+
+#content {
+  height: 84% !important;
+ /* float:left; 
+  width:59%; 
+  padding-top:5px;  */
+  padding-left:5px; 
+  overflow-y: auto;
+}
+
+.rightMenudiv {
+  height: 80%;
+  float:left; 
+  width:40%;
+  padding-left:5px; 
+  padding-top:5px; 
+}
+
+.Login
+{
+	background-color : white;
+	padding : 10px;
+	margin-top : 10% !important;
+	left: 36% !important;
+	border: 1px solid gray;
+}
+/*ADD CSS*/
+#headerBar{
+    height: 89px;
+}
+
+.appHeader{
+	background-color : white;
+	cellSpacing: 0px;
+	cellPadding: 0px;
+	width: 100%;
+	/* height: 28px; */
+	border: 0;
+	height: 89px;
+    position: fixed;
+    z-index: 1;
+	
+}
+
+#appMenu{
+	height: 34px;
+}
+
+#appMenu table{
+    height: 34px;
+    position: fixed;
+    z-index: 1;
+    background-color: #004080;
+    cellSpacing: 0px;
+    cellPadding: 0px;
+    width: 100%;
+    border: 0;
+}
+
+#appMenu table tr td {
+    color: white !important;
+    font-size: 12pt !important;
+    font-weight: normal !important;
+    vertical-align: middle !important;
+}
+
+#appMenu table tr td img {
+    vertical-align: middle;
+}
+
+.HeaderLogo {
+	background: url('../Images/bms_header_1m.jpg');
+	cellSpacing: 0px;
+	cellPadding: 0px;
+	width: 100%;
+	border: 0;
+}
+
+#appCurrentNav {
+font-size:14px;
+font-weight:bold; 
+color: #ff8040;
+border:0px #000 solid;margin:0;
+padding:0px 0px 0px 10px;
+height:21px;
+background-color : #e2e2d8;
+}
+ 
+#CurrentNav {
+font-size:14px;
+font-weight:bold; 
+color: #ff8040;
+}
+ 
+#closeWin {
+font-size:14px;
+font-weight:normal;
+}
+
+#closeWin a:hover {
+font-weight:bold; 
+}
+
+.codeDesc {
+	vertical-align: bottom !important;
+	padding-left: 4px !important;
+}
+
+.labelPad {
+	padding-right:10px;
+}
+
+.sapUiView {
+	height: 99% !important;
+}
+.sapUiAppHdr {
+	background-size: 100% 220px !important;
+	border-top-width: 5px !important;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#009de0),to(#009de0)) !important;
+	background-color: #009de0 !important;
+}
+
+
+@-o-viewport {
+	width: device-width;
+	zoom: 2;
+}
+
+/*For search*/
+.sapMSFI[type='search'] {
+	font-size: 10pt !important;
+	width: 100% !important;
+}
+.sapMSFF {
+	height: 100% !important;
+	line-height: 100%!important;
+}
+.sapMSFI {
+	height: 99% !important;
+}
+.sapMSFB {
+	width: 1rem !important;
+	line-height: 1.6rem !important;
+}
+
+.sapMSFF.sapMSFNS {
+	padding-right: 1.5rem !important;
+}
+
+.searchNote {
+	padding-left: 120px;
+	font-size: small !important;
+}
+.searchBox{
+	padding:0 5px !important;
+	height: 1.6rem !important;
+}
+/******* E-N-D  O-F  S-E-A-R-C-H  B-O-X ***/
+
+.padTop1{
+	padding-top: 40px;
+}
+.padTop2{
+	padding-top: 20px !important;
+}
+.padTop3{
+	padding-top: 10px !important;
+}
+.padRight1{
+	padding-right: 15px !important;
+}
+
+.padLeft5{
+	padding-left: 5px !important;
+}
+
+.padLeft10{
+	padding-left: 10px !important;
+}
+
+.padLeft15{
+	padding-left: 15px !important;
+}
+
+.padBottom5{
+	padding-bottom: 5px !important;
+}
+
+.padBottom10{
+	padding-bottom: 10px !important;
+}
+
+.transparent {
+	background: transparent !important;
+}
+.lineNoMargin{
+	margin-top: 0px !important;
+}
+
+/*************  Top Navigation ****************************/
+#topNav {
+	background-color : white; /*#3299BB; ; #1975FF; #3299BB #00B050*/
+	cellSpacing: 0px;
+	cellPadding: 0px;
+	width: 100%;
+	height: 28px;
+	border: 0;
+	display:block; color:black; 
+	line-height:28px; 
+	text-decoration:none;
+	padding:0 10px;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+
+
+#topNavBar {
+	background-color : #00B050; /*#3299BB; ; #1975FF; #3299BB #00B050*/
+	cellSpacing: 0px;
+	cellPadding: 0px;
+	width: 100%;
+	height: 28px;
+	border: 0;
+	display:block; color:black; 
+	line-height:26px; 
+	text-decoration:none;
+	padding:0 10px;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+
+.topNav {
+	height: 28px !important;
+}
+.topNav > a {
+	color:white !important;
+}
+.topNavLink:visited {
+	color:#FF9900 !important;
+}
+.topNavSeparator {
+	min-width: initial !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	color:white !important;
+}
+
+#navHome-inner {
+	background: none !important;
+	text-shadow: none !important;
+	border: none !important;
+}
+
+#navHome-img {
+	/*color: #ffffff !important; */
+}
+
+
+#content {
+	overflow-y: visible !important;
+}
+
+#appMain {
+  background-color: white !important;
+  background-image: none !important;
+}
+  
+/*.sapMSplitContainerMaster {*/
+#appMain-Master1{
+	float: right !important;
+	right: 0px !important;
+	left: initial !important; 
+	
+}
+ /*
+html[data-sap-ui-browser^="ie9"] .sapMSplitContainerPortrait.sapMSplitContainerShowHide>.sapMSplitContainerMaster,html[data-sap-ui-browser^="ie9"] .sapMSplitContainerHideMode>.sapMSplitContainerMaster{
+	right:330px !important; }
+
+.sapMSplitContainerPortrait.sapMSplitContainerShowHide>.sapMSplitContainerDetail,.sapMSplitContainerHideMode>.sapMSplitContainerDetail,.sapMSplitContainerPopover .sapMSplitContainerDetail{margin-right:0 !important; }
+.sapMSplitContainerPortrait.sapMSplitContainerStretchCompress>.sapMSplitContainerMaster{width:320px!important;right:0 !important; }
+
+
+.sapMSplitContainerHideMode2>.sapMSplitContainerMaster{
+	transform: translate3d(330px,0,0) !important;
+}
+
+ .sapMSplitContainerPortrait.sapMSplitContainerShowHide>.sapMSplitContainerMasterHidden,.sapMSplitContainerHideMode>.sapMSplitContainerMasterHidden{
+ transform:translate3d(330px,0,0) !important;
+ transition:all 300ms;
+ -webkit-transform:translate3d(330px,0,0) !important;
+ -webkit-transition:all 300ms;
+ -moz-transform:translate3d(330px,0,0) !important;
+ -moz-transition:all 300ms}
+  */
+  /*App blue bar divider between top nav menu and content*/
+ .sapMShellBrandingBar{
+ background-color: transparent !important;
+ }
+ 
+ div.sapMBtnInner.sapMBtnAccept {
+ background-color: #9BBB59 !important;
+ }
+ 
+ div.sapMBtnInner.sapMBtnReject{
+ background-color: #C0504D !important;
+}
+ 
+ /*Footer Bar*/
+.sap-desktop .sapMIBar.sapMFooter-CTX{
+	background-color: silver !important;
+}
+/*
+.sapMTB{
+	height: 2.2rem !important;
+}
+*/
+
+.desktopOnly {
+	visibility: visible;
+	width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+	/*Table Font size*/
+	.sapMListTbl .sapMText, .sapMListTbl .sapMLabel{
+		font-size: 10pt !important;
+	}
+
+	/*Table List Navigation img*/
+	.sapMListTblHasNav .sapMListTblNavCol{
+		width: 1.3rem !important;
+	}
+	 .sapMLIBImgNav{
+	   width:1.3rem !important;
+	 }
+ 	/*Table header*/
+	.sapMListTblCell {
+		padding: .4rem .1rem !important;
+	}
+
+	.desktopOnly {
+		visibility: hidden;
+		width: 24px !important;
+	}
+	
+	.colMinWidth {
+	   width:70px !important;
+	}
+	
+	.colMinWidth2 {
+	   width:80px !important;
+	}
+	
+	.sapMListTblSelCol {
+	   width:1.8rem !important;
+	}
+}
+/*checkbox*/
+.sapMCbBg{
+	top: .95rem !important;
+	left: 5px !important;
+	height: .85rem !important;
+	width: .85rem !important;
+}
+
+
+/*BUTTON*/
+.zButton{
+	max-width: 159px;
+	padding: 0 1px !important;
+}
+
+/*Hide top Check Box*/
+#approvalList-sa-CbBg {
+	visibility: hidden;
+}
+
+.headerFieldBox{
+	border-bottom: none !important;
+	height: 30px !important;
+	padding: 0 10px !important;
+}
+
+.sapUiTablePaginator{
+	text-align: right !important;
+}
+
+.sapUiAcdSectionHdr {
+  font-size: 16px !important;
+}
+
+.sapMNav {
+	overflow: visible !important;
+}
+
+
+.headerTitle {
+font-size:16px !important;;
+font-weight:bold !important;; 
+color: #ff8040;
+border:0px #000 solid;margin:0;
+padding:5px 0 0 0px !important;
+line-height:16px !important;
+}
+
+
+/*Delete Attachment*/
+.delAttach{
+  text-align: center;
+  text-decoration: underline !important;
+}
+
+/*hide for printing*/
+#printHeader {display:none !important;}
+.page-break	{ display: inline-block; page-break-before: initial; page-break-inside: initial;}
+.accremarks	{ /* height: 100% !important; */ } 
+
+@media print
+{
+	.noprint {display:none !important;}
+	#printHeader {display:block !important;}
+	#headerBar {display:none !important;}
+	#appMenu {display:none !important;}
+	.page-break	{ page-break-before: auto; page-break-inside: auto; } 
+}
+

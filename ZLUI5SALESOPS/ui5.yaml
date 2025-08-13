@@ -1,0 +1,34 @@
+specVersion: "3.1"
+metadata:
+  name: jgsummit.zlui5salesops
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        ignoreCertError: false
+        backend:
+          - path: /sap
+            url: http://rlcsadlas4h01.rlc.com.ph:8001
+            client: "100"
+            destination: LSD_100_CLARIZE
+        ui5:
+          path:
+            - /resources
+            - /test-resources
+          url: https://ui5.sap.com
+    - name: fiori-tools-appreload
+      afterMiddleware: compression
+      configuration:
+        port: 35729
+        path: webapp
+        delay: 300
+    - name: fiori-tools-preview
+      afterMiddleware: fiori-tools-appreload
+      configuration:
+        component: jgsummit.zlui5salesops
+        ui5Theme: sap_horizon
+framework:
+  name: OpenUI5
+  version: "1.136.0"

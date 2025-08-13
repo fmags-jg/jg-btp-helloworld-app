@@ -1,0 +1,29 @@
+<mvc:View
+    controllerName="sap.btp.helloworldui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <FlexBox
+                id = "flexbox1"
+                alignItems="Center"
+                justifyContent="Start"
+            >
+                <Text
+                    id = "text1"
+                    text="Text Box: Hello from my extended app!"
+                    class="sapUiTinyMarginEnd"
+                />
+                <Button
+                    id = "button1"
+                    text="Press Me"
+                    press=".onPress"
+                />
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>
