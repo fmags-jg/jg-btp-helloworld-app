@@ -15,7 +15,7 @@
             >
                 <Text
                     id = "text1"
-                    text="Text Box: Hello from my extended app!"
+                    text="Text Box: Hello from my extended app!!!"
                     class="sapUiTinyMarginEnd"
                 />
                 <Button
